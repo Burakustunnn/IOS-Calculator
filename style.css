@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1.5rem;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.conteiner {
+  width: 50%;
+  height: 1000px;
+  background-color: black;
+  display: grid;
+  /* align-self: center; */
+  justify-self: center;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  padding: 400px 25px 25px 50px;
+  grid-area: 5/1 / span 2 / span 2;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: #333333;
+}
+.truncu {
+  background-color: #f1a33c;
+}
+.gri {
+  background-color: #a5a5a5;
+}
+
+.sıfır {
+ 
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
